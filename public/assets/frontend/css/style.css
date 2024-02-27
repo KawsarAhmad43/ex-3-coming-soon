@@ -1,0 +1,93 @@
+body {
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logohome {
+    width: 200px;
+}
+
+.coming {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 68px;
+}
+@keyframes dot-animation {
+    0%,
+    20% {
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+
+    40% {
+        color: #333;
+        text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+
+    60% {
+        text-shadow: 0.25em 0 0 #333, 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+
+    80%,
+    100% {
+        text-shadow: 0.25em 0 0 #333, 0.5em 0 0 #333;
+    }
+}
+
+.dot-animation {
+    animation: dot-animation 1s infinite steps(1);
+}
+
+.video-container {
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 4px 15px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.slogan {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+.about-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+.about-text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.about-shadow {
+    box-shadow: 0px 4px 15px 3px rgba(0, 0, 0, 0.25);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* .text-shadow {
+    text-shadow: 2px 2px 4px #000000;
+} */
+
+/* #typingEffect {
+    overflow: hidden; 
+} */
+
+/* #typingEffect::after {
+    content: '.';
+    animation: typing 1s steps(3, end) infinite;
+} */
+
+/* @keyframes typing {
+    from, to {
+        width: 0;
+    }
+    50% {
+        width: 1.2em;
+    }
+} */
+
+/* .container{
+    background-color: aquamarine;
+} */
