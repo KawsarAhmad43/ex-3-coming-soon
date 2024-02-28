@@ -27,37 +27,25 @@
 <body>
 
     <div class="container">
-
         <div class="row justify-content-center">
-            <div class="col-md-6 text-center mt-5">
+            <div class="col-md-6 col-sm-6 text-center mt-5">
                 <img class="logohome" src="{{ asset('assets/frontend/images/logo1.png') }}" alt="Ex-3 Academy">
             </div>
-
-            <div class="col-md-6 text-center mt-5">
+            <div class="col-md-6 col-sm-6 text-center mt-5">
                 <img class="logohome" src="{{ asset('assets/frontend/images/logo2.png') }}" alt="Ex-3 Pro">
             </div>
             <div class="col-md-12 mt-5">
                 <h2 class="slogan text-center">Your Earning, Learning & Entertainment Partner</h2>
             </div>
         </div>
-
         <div class="row justify-content-center">
             <h1 class="coming mt-5">Coming Soon<span class="dot-animation">. . .</span></h1>
         </div>
-
         <div class="row mt-5">
             <div class="video-container col-md-7">
-
-
-                <iframe width="100%" height="360"
-                    src="https://www.youtube.com/embed/D0UnqGm_miA?autoplay=1&mute=0&loop=1"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
+                <video id="introVideo" class="video-iframe" src="{{ asset('assets/frontend/videos/intro.mp4') }}"
+                    preload="auto" autoplay loop muted></video>
             </div>
-
-
             <div class="about col-md-5 pl-5">
                 <h2 class="about-title"><span class="about-shadow">About Us</span></h2>
                 <p class="about-text mt-5">
@@ -65,10 +53,8 @@
                     your journey with EX-3 Academy for professionalism and create an account on EX-3 Pro for all types
                     of communication and entertainments .
                 </p>
-
             </div>
         </div>
-
     </div>
 
     {{-- js  --}}
